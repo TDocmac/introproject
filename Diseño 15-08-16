@@ -1,0 +1,19 @@
+Mínimo:
+
+Una clase jugable (Mago).
+Inventario
+Estilo/Topic: Action RPG/Medieval-Fantasía
+Contexto: Falta pulir (definido)
+Stats: STR, INT, VIT, DEX, LUK, AGI*
+Save game en la ciudad
+Menú
+HUD
+Currency*
+Sin pausa
+Muerte → Load save file
+Generador random de mapas
+
+Segunda prioridad:
+
+Clases extra (Warrior, Ranger)
+...
