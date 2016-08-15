@@ -1,2 +1,4 @@
 # Tareas para la semana
--Busqueda Sprites (Personajes y Enemigos) \n -Buscar sobre generador mapas
+-Busqueda Sprites (Personajes y Enemigos)
+
+-Buscar sobre generador mapas
