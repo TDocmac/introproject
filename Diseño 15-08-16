@@ -1,19 +1,35 @@
-Mínimo:
+MÍNIMO:
 
+Detalles técnicos:
+
+Perspectiva isométrica
+Tamaño del mapa: 2x2 1080
+Resolución 720p
+60 fps
+HUD
+Menú
+Dirección dada por el mouse
+Sin pausa
+GENERADOR RANDOM DE MAPAS
+
+Detalles in game:
+
+Estilo/Topic: Action RPG/Medieval-Fantasía
 Una clase jugable (Mago).
 Inventario
-Estilo/Topic: Action RPG/Medieval-Fantasía
 Contexto: Falta pulir (definido)
 Stats: STR, INT, VIT, DEX, LUK, AGI*
 Save game en la ciudad
-Menú
-HUD
+Enemigo escala con level (no sobrepasa a los jefes)
+4 tipos de enemigos (a definir)
 Currency*
-Sin pausa
 Muerte → Load save file
-Generador random de mapas
 
-Segunda prioridad:
+SEGUNDA PRIORIDAD:
 
 Clases extra (Warrior, Ranger)
+Sistema de resistencia elemental
+3 habilidades por clase
 ...
+
+* a definir mas adelante
