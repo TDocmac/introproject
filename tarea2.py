@@ -41,6 +41,13 @@ for linea in archivo:
 
 
 
+ratings = open("ratings.dat")
+
+d={}
+for linea in ratings:
+    linear = linea.strip().split("::")
+    d[int(linear[0]),int(linear[1])]=(linear[2])
+
 
 
 
