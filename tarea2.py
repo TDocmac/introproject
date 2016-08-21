@@ -48,6 +48,14 @@ for linea in ratings:
     linear = linea.strip().split("::")
     d[int(linear[0]),int(linear[1])]=(linear[2])
 
-
+def top10(usuario):
+    a =[0,0,0,0,0,0,0,0,0,0]
+    for movie in dict_movies:
+        p = prediccion(usuario, movie)
+        for r in range(len(a)):
+            if p>a[r]:
+                a[r]=p
+                break
+    return a
 
 
