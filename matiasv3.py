@@ -83,10 +83,12 @@ def top10(usuario):
     a =[0,0,0,0,0,0,0,0,0,0]
     for movie in dict_movies:
         p = prediccion(usuario, movie,matriz)
-        for r in range(len(a)):
-            if p>a[r]:
-                a[r]=p
-                break
+        if p > a[9]
+            for r in range(len(a)):
+                if p>a[r]:
+                    a.insert(r,p)
+                    del a[10]
+                    break
     return a
 
 #print top10(1)
