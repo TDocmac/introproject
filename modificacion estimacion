@@ -1,15 +1,17 @@
 def top(usuario,num):
     l_predicciones = []
     l_top10 = []
-    l_pelis = num_pelis(num)
+    if num == -1:
+        l_pelis = peliculas
+    else:
+        l_pelis = num_pelis(num, usuario)
     t_top0 = time.time()
     j = 0
-    print "Realizando predicciones, espere por favor..."
-    for i in l_pelis:
-        p = prediccion(i,usuario,matriz)
-        l_predicciones.append((round(p,1),i))
-        j += 1
-        if j == 10:
-            t_top2 = time.time()
-            print "Tiempo que toma una prediccion = "+str(round(((t_top2-t_top0)/10),3))+" segundos"
-            print "Tiempo estimado total = "+str(round(((t_top2-t_top0)/10),3)*num)+" segundos"
+    
+    
+    
+    
+    
+    
+    
+    print "Para seleccionar todas las peliculas ingrese -1"
