@@ -11,7 +11,6 @@ t0 = time.time()
 
 
 dict_movies = {}
-dict_user = {}
 matriz = dok_matrix((71568, 65134),dtype=float32)
 lista_peli = []
 lista_user = []
@@ -107,10 +106,11 @@ def top(usuario,num):
         p = prediccion(i,usuario,matriz)
         l_predicciones.append((round(p,1),i))
         j += 1
-        if j == 10:
+        if j == 20:
             t_top2 = time.time()
-            print "Tiempo que toma una prediccion = " + str(round(((t_top2 - t_top0) / 10.0), 3)) + " segundos"
-            print "Tiempo estimado total = " + str(round((((t_top2 - t_top0)/10.0))/60.0, 1) * num) + " minutos"
+            print "Tiempo que toma una prediccion = " + str(round(((t_top2 - t_top0) / 20.0), 3)) + " segundos"
+            print "Tiempo estimado total = " + str(round((((t_top2 - t_top0)/20.0))/60.0, 1) * len(l_pelis)) + " minutos"
+            print "Realizando predicciones, espere por favor..."
     l_predicciones.sort()
     l_predicciones.reverse()
     for i in range(10):
@@ -123,7 +123,7 @@ def top(usuario,num):
     for i in range(len(l_top10_nombres)):
         print l_top10_nombres[i]
     print "Tiempo de prediccion para el usuario "+str(usuario)+" con "+str(num)+" peliculas, es de "+str(round((t_top1-t_top0)/60.0,1))+" minutos."
-    
+
 
 print "Bienvenido al sistema de recomendaciones Sansanito"
 sel = 1
@@ -137,11 +137,9 @@ while sel != 0:
     print "Para realizar otra prediccion ingrese '1'"
     print "Para salir ingrese '0'"
     sel = int(raw_input("Seleccion: "))
-    
+
 print "Gracias por utilizar el sistema de recomendaciones Sansanito"
 
 if sel == 0:
     movies.close()
-    ratings.close()
-
     ratings.close()
