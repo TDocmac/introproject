@@ -2,6 +2,10 @@ Variables:
 
 
 Macros:
+cell_h: 16
+cell_w: 32
+floor: -5
+wall: -6
 
 
 
