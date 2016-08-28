@@ -1,5 +1,5 @@
 /// Seguidor de player
-if (distance_to_object(obj_player)>160){
+if (distance_to_object(obj_player)>160 and distance_to_object(obj_player)<500 ){
     mp_potential_step(obj_player.x,obj_player.y,2,true);
 }
 if (distance_to_object(obj_player)<80) {
