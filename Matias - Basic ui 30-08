@@ -1,0 +1,21 @@
+/// HP obj_main -> create
+global.life = 2;
+
+///Barra de HP obj_main -> draw ->draw
+draw_sprite(spr_hpred,1,view_xview[0]+45,view_yview[0]+34);
+draw_sprite_ext(spr_hpgreen,1,view_xview[0]+45,view_yview[0]+34,(global.life+1)/3,1,0,c_white,1);
+draw_sprite(spr_hpborder,1,view_xview[0]+15,view_yview[0]+15);
+
+///Barra HP Enemigos obj_enemy -> draw ->draw
+draw_self();
+draw_healthbar(x-25,y-50,x+25,y-45,100(HP),c_black,c_red,c_green,0,true,false);
+
+/// Minimapa
+idea: http://static.na.aiononline.com/powerbook/aion/23/13/457a13f50a0e1a43d2e5c8a9.png
+minimapa radar circular: https://www.youtube.com/watch?v=vJm0fqh_baA
+
+///Hud skills
+http://3.bp.blogspot.com/-2cVGO0EmXrI/UOzHI52uFsI/AAAAAAAAAJY/9gpmk5MnnkM/s1600/Character_Abilities.png
+http://www.mybrutecheats.com/wp-content/uploads/2009/04/mybruteskills.jpg
+///Free assets
+http://opengameart.org/content/nice-gui-elements
