@@ -6,6 +6,13 @@ draw_sprite(spr_hpred,1,view_xview[0]+45,view_yview[0]+34);
 draw_sprite_ext(spr_hpgreen,1,view_xview[0]+45,view_yview[0]+34,(global.life+1)/3,1,0,c_white,1);
 draw_sprite(spr_hpborder,1,view_xview[0]+15,view_yview[0]+15);
 
+/// Skills
+
+draw_sprite(spr_skillbox,1,view_xview[0]+520,view_yview[0]+720-40);
+draw_sprite(spr_skillbox,1,view_xview[0]+600,view_yview[0]+720-40);
+draw_sprite(spr_skillbox,1,view_xview[0]+680,view_yview[0]+720-40);
+draw_sprite(spr_skillbox,1,view_xview[0]+760,view_yview[0]+720-40);
+
 ///Barra HP Enemigos obj_enemy -> draw ->draw
 draw_self();
 draw_healthbar(x-25,y-50,x+25,y-45,100(HP),c_black,c_red,c_green,0,true,false);
