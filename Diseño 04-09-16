@@ -1,0 +1,143 @@
+MÍNIMO:
+
+Detalles técnicos:
+
+Perspectiva isométrica
+Tamaño del mapa: 2x2 1080
+Resolución 720p
+60 fps
+HUD
+Menú
+Dirección dada por el mouse
+Sin pausa
+GENERADOR RANDOM DE MAPAS
+
+Detalles in game:
+
+Estilo/Topic: Action RPG/Medieval-Fantasía
+Una clase jugable (Mago).
+Inventario
+Contexto: Falta pulir (definido)
+Stats: STR, INT, VIT, DEX, LUK, AGI*
+Save game en la ciudad
+Enemigo escala con level (no sobrepasa a los jefes)
+4 tipos de enemigos (a definir)
+Currency*
+Muerte → Load save file
+
+SEGUNDA PRIORIDAD:
+
+Clases extra (Warrior, Ranger)
+Sistema de resistencia elemental
+3 habilidades por clase
+...
+
+* a definir mas adelante
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+*4/9/2016*
+
+MAGO:
+
+- Ataque a distancia elemental.
+- Habilidades:
+  - Proyectil neutral: Ataque básico, bajo cooldown, rango mitad de pantalla
+  - Blink
+  - Black Hole: especie de decoy
+  FUEGO:
+  - Firewall: bloquea el paso y hace daño.
+  - Fireball: bola de fuego, hace daño, aoe
+  HIELO:
+  - Icewall: bloquea el paso
+  - Frostcone: daño
+  PLANTA:
+  - Summon: planta estática que ataca
+  - Enrredadera: bloquea movilidad a enemigos y hace daño
+
+PARA EL FUTURO:
+Rogue basado en evasión y Warrior en def.
+
+------------------
+
+ITEMS:
+
+- Consumibles:
+  Poción de HP
+  Poción de cooldown
+  Teleporter
+  
+- Equipables:
+  
+  Head: Helmet, bandana, silk
+  Body: Heavy armor, light armor
+  Left Hand: Light shield, dagger, heavy shield
+  Right Hand: Sword, Dagger, Wand
+  Pants: Pants
+  Boots: Heavy boots, light boots
+  Accesory*
+
+- Currency
+------------------------
+
+PLAYER:
+
+- Movimiento
+- Stats: Escalabilidad
+- Habilidades: upgradeables
+-------------------------------
+
+MECANICAS IN GAME:
+
+- Teleport post mini boss (checkpoint)
+- Loot cae en mapa
+- Cofres
+----------------------------------------------
+
+ENEMIGOS:
+
+- Movimiento
+- Escalabilidad
+- Melee (rápido/bajo daño y lento/alto daño)
+- Rango
+- Summoner: invoca melee
+- Support: inmovilidad con trampas visibles y atacables, heleo a enemigos
+--------------------------------------------
+
+CIUDAD:
+
+- Shop: Consumibles, equipables
+- Monumento (teleport, save)
+- Extras*
+---------------------------------------
+
+STATS:
+
+STR: Mejora ataque en clase Warrior
+INT: Mejora ataque en clase Wizzard
+DEX: Mejora ataque en clase Rogue. Aumenta aim de Warrior y Rogue. Reduce cooldown en Wizzard
+VIT: Aumenta HP y def del player
+AGI: Aumenta % de dodge
+LUK: Aumenta loot rate y un poco de crit rate
+----------------------------------------------------
+
+HUD:
+
+Principal:
+
+- Barra de HP
+- Barra de habilidades
+- Barra de consumibles
+- Minimap
+- Botón de inventario
+- Botón menú
+
+Secundario:
+
+- Inventario: equipo usado y en bag, currency
+- Menú: Load file, return to main menu, opciones
+
+
+
+
