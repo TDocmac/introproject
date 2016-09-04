@@ -10,4 +10,4 @@ https://www.youtube.com/watch?v=WB2alpO62GM
 
 Con qué seguir:
 
-- Sprite
+LEE EL DISEÑO.
