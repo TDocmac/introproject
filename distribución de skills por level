@@ -1,0 +1,34 @@
+MAGO:
+
+- Ataque a distancia elemental.
+- Habilidades:
+  - Proyectil neutral: Ataque básico, bajo cooldown, rango mitad de pantalla 1
+  - Blink 1
+  - Black Hole: especie de decoy 3
+  FUEGO:
+  - Firewall: bloquea el paso y hace daño. 2
+  - Fireball: bola de fuego, hace daño, aoe 1
+  HIELO:
+  - Icewall: bloquea el paso 1
+  - Frostcone: daño 3
+  PLANTA:
+  - Summon: planta estática que ataca 2
+  - Enrredadera: bloquea movilidad a enemigos y hace daño 3
+  
+  LEVEL 1:
+  
+  - Proyectil neutral (check)
+  - Blink (trabajando)
+  - Fireball (trabajando)
+  - Icewall (trabajando)
+  
+  LEVEL 30+:
+  
+  - Firewall (trabajando)
+  - Summon
+  
+  DESPUES PRIMER BOSS:
+  
+  - Black Hole
+  - Frostcone
+  - Enrredadera
