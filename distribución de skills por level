@@ -2,18 +2,18 @@ MAGO:
 
 - Ataque a distancia elemental.
 - Habilidades:
-  - Proyectil neutral: Ataque básico, bajo cooldown, rango mitad de pantalla 1
-  - Blink 1
-  - Black Hole: especie de decoy 3
+  - Proyectil neutral: Ataque básico, bajo cooldown, rango mitad de pantalla 
+  - Blink 
+  - Black Hole: especie de decoy 
   FUEGO:
-  - Firewall: bloquea el paso y hace daño. 2
-  - Fireball: bola de fuego, hace daño, aoe 1
+  - Firewall: bloquea el paso y hace daño. 
+  - Fireball: bola de fuego, hace daño, aoe 
   HIELO:
-  - Icewall: bloquea el paso 1
-  - Frostcone: daño 3
+  - Icewall: bloquea el paso 
+  - Frostcone: daño 
   PLANTA:
-  - Summon: planta estática que ataca 2
-  - Enrredadera: bloquea movilidad a enemigos y hace daño 3
+  - Summon: planta estática que ataca 
+  - Enrredadera: bloquea movilidad a enemigos y hace daño 
   
   LEVEL 1:
   
